@@ -4,7 +4,7 @@ This repository contains all experiments and source code developed for the Softw
 
 -------
 
-## 🔬 Experiment 2: Weather Modelling Using Quadratic Regression (Waterfall Model)
+## Experiment 2: Weather Modelling Using Quadratic Regression (Waterfall Model)
 
 **Objective:**  
 To develop a weather forecasting model that predicts temperature, humidity, and wind speed for each hour of the day using a quadratic regression approach. The software was developed following the **Waterfall Model** to ensure structured execution.
