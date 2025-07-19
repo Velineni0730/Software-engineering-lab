@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 # Step 1: Input Data (Hourly from 0 to 23)
 
@@ -49,37 +48,44 @@ for t, wind in zip(t_values, predicted_wind):
 
 # Step 6: Plotting the results
 
-plt.figure(figsize=(12, 8))
+try:
+    import matplotlib.pyplot as plt
 
-# Temperature Plot
-plt.subplot(3, 1, 1)
-plt.scatter(time, temperature, color='blue', label='Original Temperature', zorder=5)
-plt.plot(t_values, predicted_temp, color='red', linestyle='--', label='Predicted Temperature')
-plt.title('Temperature Prediction using Quadratic Model')
-plt.xlabel('Time (Hours)')
-plt.ylabel('Temperature (°C)')
-plt.grid(True)
-plt.legend()
+    plt.figure(figsize=(12, 8))
 
-# Humidity Plot
-plt.subplot(3, 1, 2)
-plt.scatter(time, humidity, color='green', label='Original Humidity', zorder=5)
-plt.plot(t_values, predicted_humidity, color='orange', linestyle='--', label='Predicted Humidity')
-plt.title('Humidity Prediction using Quadratic Model')
-plt.xlabel('Time (Hours)')
-plt.ylabel('Humidity (%)')
-plt.grid(True)
-plt.legend()
+    # Temperature Plot
+    plt.subplot(3, 1, 1)
+    plt.scatter(time, temperature, color='blue', label='Original Temperature', zorder=5)
+    plt.plot(t_values, predicted_temp, color='red', linestyle='--', label='Predicted Temperature')
+    plt.title('Temperature Prediction using Quadratic Model')
+    plt.xlabel('Time (Hours)')
+    plt.ylabel('Temperature (°C)')
+    plt.grid(True)
+    plt.legend()
 
-# Wind Speed Plot
-plt.subplot(3, 1, 3)
-plt.scatter(time, wind_speed, color='purple', label='Original Wind Speed', zorder=5)
-plt.plot(t_values, predicted_wind, color='black', linestyle='--', label='Predicted Wind Speed')
-plt.title('Wind Speed Prediction using Quadratic Model')
-plt.xlabel('Time (Hours)')
-plt.ylabel('Wind Speed (km/h)')
-plt.grid(True)
-plt.legend()
+    # Humidity Plot
+    plt.subplot(3, 1, 2)
+    plt.scatter(time, humidity, color='green', label='Original Humidity', zorder=5)
+    plt.plot(t_values, predicted_humidity, color='orange', linestyle='--', label='Predicted Humidity')
+    plt.title('Humidity Prediction using Quadratic Model')
+    plt.xlabel('Time (Hours)')
+    plt.ylabel('Humidity (%)')
+    plt.grid(True)
+    plt.legend()
 
-plt.tight_layout()
-plt.show()
+    # Wind Speed Plot
+    plt.subplot(3, 1, 3)
+    plt.scatter(time, wind_speed, color='purple', label='Original Wind Speed', zorder=5)
+    plt.plot(t_values, predicted_wind, color='black', linestyle='--', label='Predicted Wind Speed')
+    plt.title('Wind Speed Prediction using Quadratic Model')
+    plt.xlabel('Time (Hours)')
+    plt.ylabel('Wind Speed (km/h)')
+    plt.grid(True)
+    plt.legend()
+
+    plt.tight_layout()
+    plt.show()
+
+except ImportError:
+    print("\nNOTE: 'matplotlib' is not installed. Skipping graph display.")
+    print("To install it, run: pip install matplotlib")
