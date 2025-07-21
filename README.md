@@ -2,7 +2,9 @@
 
 This repository contains all experiments and source code developed for the Software Engineering Lab course.
 
+
 -------
+
 
 ## Experiment 2: Weather Modelling Using Quadratic Regression (Waterfall Model)
 
@@ -30,6 +32,44 @@ The project was executed through the five Waterfall phases:
 - Matplotlib
 - VS Code
 
+
 -------
+
+
+##  Experiment 3: Weather Modelling Using Iterative Model
+
+**Objective:**  
+To develop and improve a weather prediction system through multiple iterations, progressively refining the model's accuracy and expanding its scope.
+
+**Approach:**  
+The model evolves through successive iterations, allowing for continuous enhancements based on scope expansion and user feedback.
+
+###  Iteration Breakdown:
+
+1. **Iteration 1 – Basic Model:**  
+   - Implemented a simple quadratic model for temperature prediction.  
+   - All team members collaborated on data collection, coding, and testing.
+
+2. **Iteration 2 – Scope Expansion:**  
+   - Added features for predicting humidity and wind speed.  
+   - Enhanced data validation and refined coefficient fitting logic.
+
+3. **Iteration 3 – User Feedback Integration:**  
+   - Collected feedback to assess usability and model performance.  
+   - Incorporated suggestions to improve prediction accuracy and output readability.
+
+4. **Final Iteration – Optimization:**  
+   - Optimized the model for real-time application scenarios.  
+   - Ensured compatibility with extended weather monitoring systems or external APIs.
+
+**Tools & Technologies Used:**  
+- Python 3  
+- NumPy  
+- Matplotlib  
+- Iterative Software Development Process
+
+
+-------
+
 
 More experiments coming soon.......
