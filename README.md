@@ -51,7 +51,7 @@ The model evolves through successive iterations, allowing for continuous enhance
    - All team members collaborated on data collection, coding, and testing.
 
 2. **Iteration 2 – Scope Expansion:**  
-   - Added features for predicting humidity and wind speed.  
+   - Added features for predicting UV index and Visibility.  
    - Enhanced data validation and refined coefficient fitting logic.
 
 3. **Iteration 3 – User Feedback Integration:**  
