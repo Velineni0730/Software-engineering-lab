@@ -1,6 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.metrics import mean_squared_error
+import matplotlib.pyplot as plt # type: ignore
+from sklearn.metrics import mean_squared_error # type: ignore
 
 # Iteration 4: Optimized Weather Prediction System
 
