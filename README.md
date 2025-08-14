@@ -6,6 +6,33 @@ This repository contains all experiments and source code developed for the Softw
 -------
 
 
+## Experiment 1: Software Development Life Cycle (SDLC) Overview and Team Roles
+
+**Objective:**  
+To introduce the fundamentals of the Software Development Life Cycle (SDLC), explore various SDLC models, and assign specific roles and responsibilities to team members for effective project execution.
+
+**Approach:**  
+- Studied the core phases of SDLC: Requirement Analysis, Design, Implementation, Testing, Deployment, and Maintenance.
+- Compared different SDLC models such as Waterfall, Iterative, and Agile.
+- Conducted team discussions to distribute roles (e.g., Analyst, Designer, Developer, Tester, Documenter).
+- Documented the responsibilities and deliverables for each team member.
+
+**Development Process:**  
+This experiment involved:
+1. **Requirement Analysis:** Understanding the objectives and scope of the lab course.
+2. **SDLC Model Study:** Reviewing various software development methodologies.
+3. **Team Formation:** Assigning roles and responsibilities based on member strengths and interests.
+4. **Documentation:** Preparing a report outlining SDLC concepts and team structure.
+
+**Tools & Technologies:**  
+- Microsoft Word / Google Docs (for documentation)
+- VS Code (for code and markdown editing)
+- Communication tools (e.g., WhatsApp, Email) for collaboration
+
+
+-------
+
+
 ## Experiment 2: Weather Modelling Using Quadratic Regression (Waterfall Model)
 
 **Objective:**  
